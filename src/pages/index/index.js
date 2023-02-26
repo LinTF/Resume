@@ -1,5 +1,5 @@
 import { createApp } from "vue";
-import Index from "./index.vue";
+import Index from "./Index.vue";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap";
 import "@/assets/css/style.scss";

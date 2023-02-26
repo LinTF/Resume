@@ -1,5 +1,5 @@
 import { createApp } from "vue";
-import Portfolio from "./portfolio.vue";
+import Portfolio from "./Portfolio.vue";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap";
 import "@/assets/css/style.scss";
