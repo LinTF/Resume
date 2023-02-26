@@ -7,4 +7,4 @@ import "@/assets/css/style.scss";
 import "@/assets/css/media.scss";
 import '@fortawesome/fontawesome-free/js/all.js';
 
-createApp(About).mount("body");
+createApp(About).mount("#app");
