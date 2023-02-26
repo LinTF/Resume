@@ -4,21 +4,26 @@
     </header>
     <main>
       
+        <div id="contact">
+            <contact />
+        </div>
     </main>
   
     <footer>
-        <copyRight/>
+        <copyRight />
     </footer>
   </template>
   
   <script>
     import menuBlock from '../../components/Menu.vue';
     import copyRight from '../../components/CopyRight.vue';
+    import contact from '../../components/Contact.vue';
   
     export default {
         name: 'About',
         components: {
             menuBlock,
+            contact,
             copyRight
         }
     }
