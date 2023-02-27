@@ -16,7 +16,7 @@
 
 <script>
     export default {
-        name: 'menuBlock',
+        name: 'MenuBlock',
         data() {
             return {
                 menu: [

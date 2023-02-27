@@ -9,6 +9,7 @@
                 <hr />
                 <skillBlock />
                 <hr />
+                <experienceBlock />
             </div>
         </div>
         <div id="contact">
@@ -25,6 +26,7 @@
     import menuBlock from '@/components/Menu.vue';
     import selfBlack from './Self.vue';
     import skillBlock from './SkillBlock.vue';
+    import experienceBlock from './ExperienceBlock.vue';
     import contact from '@/components/Contact.vue';
     import copyRight from '@/components/CopyRight.vue';
   
@@ -34,6 +36,7 @@
             menuBlock,
             selfBlack,
             skillBlock,
+            experienceBlock,
             contact,
             copyRight
         }

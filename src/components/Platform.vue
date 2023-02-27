@@ -10,7 +10,7 @@
 
 <script>
     export default {
-        name: 'platform',
+        name: 'Platform',
         data() {
             return {
                 platform: [
