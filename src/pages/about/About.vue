@@ -7,6 +7,8 @@
             <div id="about">
                 <selfBlack />
                 <hr />
+                <skillBlock />
+                <hr />
             </div>
         </div>
         <div id="contact">
@@ -20,16 +22,18 @@
   </template>
   
   <script>
-    import menuBlock from '../../components/Menu.vue';
+    import menuBlock from '@/components/Menu.vue';
     import selfBlack from './Self.vue';
-    import contact from '../../components/Contact.vue';
-    import copyRight from '../../components/CopyRight.vue';
+    import skillBlock from './SkillBlock.vue';
+    import contact from '@/components/Contact.vue';
+    import copyRight from '@/components/CopyRight.vue';
   
     export default {
         name: 'About',
         components: {
             menuBlock,
             selfBlack,
+            skillBlock,
             contact,
             copyRight
         }
