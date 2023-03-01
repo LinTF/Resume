@@ -116,26 +116,26 @@ header {
             }
         }
     }
+}
 
-    .skill-item {
-        background-color: $white-color;
-        border-radius: 50px;
-        margin: 10px 0px;
+.skill-item {
+    background-color: $white-color;
+    border-radius: 50px;
+    margin: 10px 0px;
 
-        .skill-icon {
-            padding: 0px 20px;
+    .skill-icon {
+        padding: 0px 20px;
 
-            img {
-                height: 60px;
-                padding: 3px;
-            }
+        img {
+            height: 60px;
+            padding: 3px;
         }
+    }
 
-        p {
-            color: $black-color;
-            margin-bottom: 0px;
-            line-height: 72px;
-        }
+    p {
+        color: $black-color;
+        margin-bottom: 0px;
+        line-height: 72px;
     }
 }
 

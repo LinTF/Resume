@@ -3,9 +3,7 @@
         <div class="block-title">
             <h2># 技術</h2>
         </div>
-        <div class="row">
-            <skill />
-        </div>
+        <skill />
     </div>
 </template>
 

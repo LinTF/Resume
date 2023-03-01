@@ -1,15 +1,17 @@
 <template>
-    <div class="col-md-3" v-for="(iSkill, index) in skill" :key= "index">
-        <div class="skill-item">
-            <div class="row">
-                <div class="col-5 vertical-center">
-                    <div class="skill-icon">
-                        <img :src = iSkill.imgUrl />
+    <div class="row">
+        <div :class="[{ 'col-md-6': onlyMainSkill === true }, { 'col-md-3': onlyMainSkill === false }]" v-for="(iSkill, index) in filterSkill" :key= "index">
+            <div class="skill-item">
+                <div class="row">
+                    <div class="col-5 vertical-center">
+                        <div class="skill-icon">
+                            <img :src = iSkill.imgUrl />
+                        </div>
                     </div>
-                </div>
-                <div class="col-7">
-                    <div>
-                        <p>{{ iSkill.name }}</p>
+                    <div class="col-7">
+                        <div>
+                            <p>{{ iSkill.name }}</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -20,6 +22,12 @@
 <script>
     export default {
         name: 'Skill',
+        props: {
+            onlyMainSkill: {
+                type: Boolean,
+                required: false
+            }
+        },
         data() {
             return {
                 skill: [
@@ -125,6 +133,15 @@
                     //     type: ''
                     // }
                 ]
+            }
+        },
+        computed: {
+            filterSkill() {
+                if (this.onlyMainSkill === true) {
+                    return this.skill.filter(iSkill => iSkill.isMainSkill === this.onlyMainSkill);
+                } else {
+                    return this.skill;
+                }
             }
         }
     }
