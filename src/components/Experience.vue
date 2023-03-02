@@ -1,6 +1,6 @@
 <template>
     <ul class="line">
-        <li v-for="(info, index) in companyJob" :key="index">
+        <li v-for="(info, index) in filterCompanyJob" :key="index">
             <h5 class="time-item">{{ info.name }}</h5>
             <h6 class="time-item">{{ info.title }}｜{{ info.jobRange }}</h6>
             <ul class="job">
@@ -13,6 +13,12 @@
 <script>
     export default {
         name: 'Experience',
+        props: {
+            onlyNewestJob: {
+                type: Boolean,
+                default: false
+            }
+        },
         data() {
             return {
                 companyJob: [
@@ -35,6 +41,15 @@
                         job: ['網站製作與規劃', '教育訓練', '客戶溝通']
                     }
                 ]
+            }
+        },
+        computed: {
+            filterCompanyJob() {
+                if (this.onlyNewestJob === true) {
+                    return [this.companyJob[0]];
+                } else {
+                    return this.companyJob;
+                }
             }
         }
     }
