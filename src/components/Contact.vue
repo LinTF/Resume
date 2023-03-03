@@ -6,15 +6,19 @@
                     <h3>林婷芳</h3> <span>Iris</span>
                 </div>
                 <hr/>
-                <div>
-                    <p>
+                <div class="contact-item">
+                    <div class="icon">
                         <i class="fa-solid fa-mobile-screen-button"></i>
-                    </p>
-                    <p> 0910290508</p>
+                    </div>
+                    <span>0910290508</span>
                 </div>
                 
-                <p><i class="fa-solid fa-envelope-open-text"></i> lin.tf1124@gmail.com</p>
-                <p><i class="fa-brands fa-linkedin"></i> https://www.linkedin.com/in/lin-ting-fang-8a391776/</p>
+                <div class="contact-item">
+                    <div class="icon">
+                        <i class="fa-solid fa-envelope-open-text"></i>
+                    </div>
+                    <span>lin.tf1124@gmail.com</span>
+                </div>
             </div>
         </div>
         <div class="col-md-6">

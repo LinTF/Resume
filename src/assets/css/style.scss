@@ -164,6 +164,21 @@ header {
                 padding-left: 7px;
             }
         }
+
+        .contact-item {
+            .icon {
+                display: inline-block;
+                padding: 5px 8px;
+                font-size: 22px;
+                width: 40px;
+                text-align: center;
+            }
+            
+            span {
+                position: relative;
+                top: -3px;
+            }
+        }
     }
 
     #message {
