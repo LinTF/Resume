@@ -26,21 +26,19 @@
                 <div>
                     <h3>與我聯絡</h3>
                 </div>
-                <div class="row">
-                    <div class="mb-3">
-                        <label for="formName" class="form-label">姓名：</label>
-                        <input type="name" class="form-control" id="formName">
+                <form action="mailto:lin.tf1124@gmail.com" method="GET">
+                    <div class="row">
+                        <div class="mb-3">
+                            <label for="formEmail" class="form-label">聯絡事項</label>
+                            <input type="text" class="form-control" id="formEmail" placeholder="請簡述聯絡事項，例如：邀請面試，外包網站建置" name="subject">
+                        </div>
+                        <div class="mb-3">
+                            <label for="formMessage" class="form-label">訊息</label>
+                            <textarea class="form-control" id="formMessage" rows="2" name="body" placeholder="記得留下姓名，好讓我稱呼您"></textarea>
+                        </div>
+                        <input type="submit" value="送出" class="btn-main">
                     </div>
-                    <div class="mb-3">
-                        <label for="formEmail" class="form-label">Email：</label>
-                        <input type="email" class="form-control" id="formEmail" placeholder="name@example.com">
-                    </div>
-                    <div class="mb-3">
-                        <label for="formMessage" class="form-label">訊息</label>
-                        <textarea class="form-control" id="formMessage" rows="2"></textarea>
-                    </div>
-                    <input type="button" value="送出" class="btn-main">
-                </div>
+                </form>
             </div>
         </div>
     </div>
