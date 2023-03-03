@@ -3,9 +3,7 @@
         <div class="block-title">
             <h2># 經歷</h2>
         </div>
-        <div class="timeline">
-            <experience />
-        </div>
+        <experience />
     </div>
 </template>
 

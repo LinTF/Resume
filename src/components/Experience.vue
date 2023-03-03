@@ -1,13 +1,15 @@
 <template>
-    <ul class="line">
-        <li v-for="(info, index) in filterCompanyJob" :key="index">
-            <h5 class="time-item">{{ info.name }}</h5>
-            <h6 class="time-item">{{ info.title }}｜{{ info.jobRange }}</h6>
-            <ul class="job">
-                <li v-for="(job, index) in info.job" :key="index">{{ job }}</li>
-            </ul>
-        </li>
-    </ul>
+    <div class="timeline">
+        <ul class="line">
+            <li v-for="(info, index) in filterCompanyJob" :key="index">
+                <h5 class="time-item">{{ info.name }}</h5>
+                <h6 class="time-item">{{ info.title }}｜{{ info.jobRange }}</h6>
+                <ul class="job">
+                    <li v-for="(job, index) in info.job" :key="index">{{ job }}</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
 </template>
 
 <script>
