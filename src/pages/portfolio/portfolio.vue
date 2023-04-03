@@ -23,7 +23,7 @@
                             <div class="row">
                                 <div class="col-md-4">
                                     <a data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                        <img src="/_img/sketch.png" width="200px" />
+                                        <img src="@/assets/images/icon/sql.png" width="200" />
                                     </a>
                                     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                         <div class="modal-dialog modal-dialog-centered modal-lg">
