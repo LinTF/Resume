@@ -1,10 +1,9 @@
 <template>
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
+        <div class="modal-dialog modal-xl">
           <div class="modal-content">
             <div class="modal-header">
               <h5 class="modal-title" id="exampleModalLabel">{{ propsWorkInfo.title }}</h5>
-              <p>{{ propsWorkInfo.note }}</p>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -43,7 +42,8 @@
                     </div>
                     <div class="col-md-6">
                         <div>
-                            <p>{{ propsWorkInfo.type }}</p>
+                            <p>{{ propsWorkInfo.note }}</p>
+                            <p v-for="(type, index) in propsWorkInfo.type" :key="index">{{ type }}</p>
                             <a>{{ propsWorkInfo.linkUrl }}</a>
                             <p>{{ propsWorkInfo.directions }}</p>
                         </div>

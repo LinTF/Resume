@@ -85,6 +85,7 @@
 
         &:hover .mask {
             opacity: .8;
+            transition: .5s;
         }
     }
 </style>
