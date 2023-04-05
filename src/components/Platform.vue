@@ -20,6 +20,11 @@
                         target: "_self"
                     },
                     {
+                        href: 'https://github.com/LinTF',
+                        text: 'fa-brands fa-github',
+                        target: "_blank"
+                    },
+                    {
                         href: 'https://www.linkedin.com/in/lin-ting-fang-8a391776/',
                         text: 'fa-brands fa-linkedin',
                         target: "_blank"
@@ -27,11 +32,6 @@
                     {
                         href: 'https://medium.com/me/stories/public',
                         text: 'fa-brands fa-medium',
-                        target: "_blank"
-                    },
-                    {
-                        href: 'https://github.com/LinTF',
-                        text: 'fa-brands fa-github',
                         target: "_blank"
                     }
                 ]
