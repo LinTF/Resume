@@ -3,7 +3,7 @@
         <div class="modal-dialog modal-xl">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">{{ propsWorkInfo.title }}</h5>
+              <h4 class="modal-title" id="exampleModalLabel">{{ propsWorkInfo.title }}</h4>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -42,10 +42,26 @@
                     </div>
                     <div class="col-md-6">
                         <div>
-                            <p>{{ propsWorkInfo.note }}</p>
-                            <p v-for="(type, index) in propsWorkInfo.type" :key="index">{{ type }}</p>
-                            <a>{{ propsWorkInfo.linkUrl }}</a>
-                            <p>{{ propsWorkInfo.directions }}</p>
+                            <div class="info-item vertical-center">
+                                <p class="title">執行範疇</p>
+                                <p class="info">{{ propsWorkInfo.note }}</p>
+                            </div>
+                            <div class="info-item vertical-center">
+                                <p class="title">技術</p>
+                                <p class="info">
+                                    <span :style="getBgColor(type)" v-for="(type, index) in propsWorkInfo.type" :key="index">
+                                        {{ type }}
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="info-item vertical-center">
+                                <p class="title">網址</p>
+                                <p class="info"><a :href="propsWorkInfo.linkUrl" target="_blank">{{ propsWorkInfo.linkUrl }}</a></p>
+                            </div>
+                            <div class="info-item vertical-center">
+                                <p class="title">說明</p>
+                                <p class="info">{{ propsWorkInfo.directions }}</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -66,10 +82,62 @@
                 type: Object,
                 required: true,
             }
+        },
+        methods: {
+            getBgColor(type) {
+                if (type === 'SCSS') {
+                    return {
+                        backgroundColor: '#3070BA',
+                        color: '#ffffff',
+                    }
+                } else if (type === 'Bootstrap') {
+                    return {
+                        backgroundColor: '#8550D2',
+                        color: '#ffffff',
+                    }
+                } else if (type === 'Vue') {
+                    return {
+                        backgroundColor: '#64B687',
+                        color: '#ffffff',
+                    }
+                }
+            }
         }
     }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+    .info-item {
+        display: flex;
+        padding: 10px 8px;
 
+        .title {
+            font-weight: bold;
+            font-size: 18px;
+            margin-right: 20px;
+            width: 15%;
+            text-align-last: justify;
+        }
+
+        p {
+            margin-bottom: 0px;
+        }
+    }
+
+    .info-item:nth-child(odd) {
+        background-color: #f8f9fa;
+    }
+
+    .info {
+        width: 85%;
+
+        span {
+            border-radius: 20px;
+            margin-right: 10px;
+            padding: 5px 10px;
+            width: 100px;
+            display: inline-table;
+            text-align: center;
+        }
+    }
 </style>
