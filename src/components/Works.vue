@@ -13,8 +13,8 @@
 
     <!-- 內容 -->
     <div class="row">
-        <div class="col-md-4" v-for="(word, index) in filteredItems" :key="index">
-            <a class="work-item" data-bs-toggle="modal" data-bs-target="#exampleModal" @click="workInfo(index)">
+        <div class="col-md-4" v-for="word in filteredItems" :key="word.title">
+            <a class="work-item" data-bs-toggle="modal" data-bs-target="#exampleModal" @click="workInfo(word.title)">
                 <img :src="word.moreImgUrl[0]" />
                 <div class="mask vertical-center">
                     <div>
@@ -136,8 +136,10 @@
         },
         emits: ['emitWork'],
         methods: {
-            workInfo(val) {
-                this.$emit('emitWork', this.works[val])
+            workInfo(str) {
+                const indexNum = this.works.findIndex(work => work.title === str);
+
+                this.$emit('emitWork', this.works[indexNum])
             },
             getActiveStyle(category) {
                 return category === this.selectedCategory ? { backgroundColor: '#F9B69C', color: '#fff', border: '1px solid #F9B69C' } : { backgroundColor: '#fff' }
