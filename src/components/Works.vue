@@ -15,7 +15,7 @@
     <div class="row">
         <div class="col-md-4" v-for="(word, index) in filteredItems" :key="index">
             <a class="work-item" data-bs-toggle="modal" data-bs-target="#exampleModal" @click="workInfo(index)">
-                <img :src="word.imgUrl" />
+                <img :src="word.moreImgUrl[0]" />
                 <div class="mask vertical-center">
                     <div>
                         <h3>{{ word.title }}</h3>
@@ -52,29 +52,99 @@
                         title: '3M全戶淨水系統',
                         category: 'frontend',
                         note: '切版與設計',
-                        imgUrl: require('@/assets/images/code/3M/index.png'),
                         type: [ 'Bootstrap', 'SCSS' ],
-                        directions: '3M全戶淨水系統產品使用場域介紹的網頁設計與切版',
-                        linkUrl: 'https://findmyfilter.com.tw/',
+                        directions: '我負責設計和切版，介紹 3M 全戶淨水系統產品的使用場景。在這個網頁中，著重於，依照使用者需求的方式呈現產品的特點和優勢，同時使用現代化的設計元素和布局，使網頁看起來更加吸引人。',
+                        linkUrl: [
+                            {   
+                                name: '3M全戶淨水系統',
+                                linkUrl: 'https://findmyfilter.com.tw/'
+                            }
+                        ],
                         moreImgUrl: [
                             require('@/assets/images/code/3M/index.png')
                         ]
                     },
                     {
                         title: '收支分析表',
-                        category: 'design',
+                        category: 'frontend',
                         note: '全前端',
-                        imgUrl: require('@/assets/images/code/incom/index.png'),
                         type: [ 'Vue', 'Bootstrap', 'SCSS' ],
-                        directions: '這是使用 Vue 做的第一個 side project，了解 Vue 的建立、元件使用、props傳入、$emit拋出、components、computed、 methods、打包專案等用法',
-                        linkUrl: 'https://lintf.github.io/IncomePlan/',
+                        directions: '這是我使用 Vue 完成的第一個 side project。在這個小專案中，深入了解了 Vue 的建立方式、元件的使用方法、props 傳遞、$emit 事件觸發、components 組件、computed 屬性、methods 方法、以及專案的打包等相關技術',
+                        linkUrl: [
+                            {
+                                name: '收支分析表',
+                                linkUrl: 'https://lintf.github.io/IncomePlan/'
+                            }
+                        ],
                         moreImgUrl: [
                             require('@/assets/images/code/incom/index.png')
+                        ]
+                    },
+                    {
+                        title: '統計報表',
+                        category: 'rearend',
+                        note: '資料庫組合、報表設計',
+                        type: [ 'vb.net', 'MMSSQL' ],
+                        directions: '在專案中，將資料依照客戶需求設計出統計報表，並提供下載',
+                        linkUrl: [
+                            {
+                                name: '',
+                                linkUrl: ''
+                            }
+                        ],
+                        moreImgUrl: [
+                            require('@/assets/images/icon/sql.png')
+                        ]
+                    },
+                    {
+                        title: 'ez訂',
+                        category: 'frontend',
+                        note: '切版',
+                        type: [ 'Bootstrap', 'CSS' ],
+                        directions: '負責切版影評文章頁面、影評文章內頁以及電影時刻列表頁面，並使用 RWD 技術實現了行動版的可觀賞性。',
+                        linkUrl: [
+                            {
+                                name: '影評文章',
+                                linkUrl: 'https://www.ezding.com.tw/article?type=0&page=1'
+                            },
+                            {
+                                name: '影評文章內頁',
+                                linkUrl: 'https://www.ezding.com.tw/articlePage?content_id=3403'
+                            },
+                            {
+                                name: '電影時刻',
+                                linkUrl: 'https://www.ezding.com.tw/movieInfoIndex?tab=in_theater&page=1'
+                            }
+                        ],
+                        moreImgUrl: [
+                            require('@/assets/images/code/Ezding/1.jpg'),
+                            require('@/assets/images/code/Ezding/2.jpg'),
+                            require('@/assets/images/code/Ezding/3.jpg'),
+                            require('@/assets/images/code/Ezding/4.png'),
+                            require('@/assets/images/code/Ezding/5.png'),
+                            require('@/assets/images/code/Ezding/6.png'),
+                        ]
+                    },
+                    {
+                        title: 'Moto7',
+                        category: 'frontend',
+                        note: '切版',
+                        type: [ 'Bootstrap', 'SCSS' ],
+                        directions: '一個重機愛好者的網站，我負責重機相關文章的行動版切版',
+                        linkUrl: [
+                            {
+                                name: '',
+                                linkUrl: ''
+                            }
+                        ],
+                        moreImgUrl: [
+                            require('@/assets/images/code/Moto7/1.png')
                         ]
                     }
                 ]
             }
         },
+        emits: ['emitWork'],
         methods: {
             workInfo(val) {
                 this.$emit('emitWork', this.works[val])
@@ -96,6 +166,10 @@
 </script>
 
 <style scoped lang="scss">
+    .col-md-4 {
+        margin-bottom: 30px;
+    }
+
     .category-btn {
         text-align: center;
         margin-bottom: 50px;
@@ -117,6 +191,8 @@
 
     .work-item {
         position: relative;
+        display: block;
+        height: 320px;
 
         img {
             width: 100%;   

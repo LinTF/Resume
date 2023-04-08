@@ -15,18 +15,18 @@
                                     <button type="button" 
                                         data-bs-target="#carouselExampleIndicators" 
                                         v-for="(imgUrl, index) in propsWorkInfo.moreImgUrl" 
-                                        :key="title + index" 
+                                        :key="imgUrl" 
                                         :data-bs-slide-to="index" 
-                                        class="active" 
+                                        :class="{ active: index === 0 }" 
                                         :aria-current="index === 0" 
                                         :aria-label="'Slide ' + index"></button>
                                 </div>
                                 <div class="carousel-inner">
                                     <div 
                                         v-for="(imgUrl, index) in propsWorkInfo.moreImgUrl" 
-                                        :key="title + index"
+                                        :key="imgUrl"
                                         :class="['carousel-item', { active: index === 0 }]">
-                                        <img :src="imgUrl" class="d-block w-100">
+                                        <img :src="imgUrl" class="d-block">
                                     </div>
                                 </div>
                                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -49,14 +49,22 @@
                             <div class="info-item vertical-center">
                                 <p class="title">技術</p>
                                 <p class="info">
-                                    <span :style="getBgColor(type)" v-for="(type, index) in propsWorkInfo.type" :key="index">
+                                    <span :style="getBgColor(type)" 
+                                        v-for="(type, index) in propsWorkInfo.type" 
+                                        :key="index">
                                         {{ type }}
                                     </span>
                                 </p>
                             </div>
                             <div class="info-item vertical-center">
                                 <p class="title">網址</p>
-                                <p class="info"><a :href="propsWorkInfo.linkUrl" target="_blank">{{ propsWorkInfo.linkUrl }}</a></p>
+                                <p class="info">
+                                    <a v-for="itemUrl in propsWorkInfo.linkUrl" 
+                                        :key="itemUrl.name" 
+                                        :href="itemUrl.linkUrl"
+                                        target="_blank">
+                                        {{ itemUrl.name }}</a>
+                                </p>
                             </div>
                             <div class="info-item vertical-center">
                                 <p class="title">說明</p>
@@ -85,7 +93,7 @@
         },
         methods: {
             getBgColor(type) {
-                if (type === 'SCSS') {
+                if (type === 'SCSS' || type === 'CSS') {
                     return {
                         backgroundColor: '#3070BA',
                         color: '#ffffff',
@@ -138,6 +146,24 @@
             width: 100px;
             display: inline-table;
             text-align: center;
+        }
+
+        a {
+            margin-right: 10px;
+            color: #D7A590;
+
+            &:hover {
+                color: #000;
+            }
+        }
+    }
+
+    .carousel-item {
+        max-height: 500px;
+
+        img {
+            max-width: 100%;
+            max-height: 500px;
         }
     }
 </style>
