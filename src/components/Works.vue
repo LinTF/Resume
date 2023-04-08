@@ -86,12 +86,7 @@
                         note: '資料庫組合、報表設計',
                         type: [ 'vb.net', 'MMSSQL' ],
                         directions: '在專案中，將資料依照客戶需求設計出統計報表，並提供下載',
-                        linkUrl: [
-                            {
-                                name: '',
-                                linkUrl: ''
-                            }
-                        ],
+                        linkUrl: [],
                         moreImgUrl: [
                             require('@/assets/images/icon/sql.png')
                         ]
@@ -131,12 +126,7 @@
                         note: '切版',
                         type: [ 'Bootstrap', 'SCSS' ],
                         directions: '一個重機愛好者的網站，我負責重機相關文章的行動版切版',
-                        linkUrl: [
-                            {
-                                name: '',
-                                linkUrl: ''
-                            }
-                        ],
+                        linkUrl: [],
                         moreImgUrl: [
                             require('@/assets/images/code/Moto7/1.png')
                         ]
