@@ -113,11 +113,11 @@
                         ],
                         moreImgUrl: [
                             require('@/assets/images/code/Ezding/1.jpg'),
-                            require('@/assets/images/code/Ezding/2.jpg'),
-                            require('@/assets/images/code/Ezding/3.jpg'),
-                            require('@/assets/images/code/Ezding/4.png'),
-                            require('@/assets/images/code/Ezding/5.png'),
                             require('@/assets/images/code/Ezding/6.png'),
+                            require('@/assets/images/code/Ezding/2.jpg'),
+                            require('@/assets/images/code/Ezding/4.png'),
+                            require('@/assets/images/code/Ezding/3.jpg'),
+                            require('@/assets/images/code/Ezding/5.png'),
                         ]
                     },
                     {
