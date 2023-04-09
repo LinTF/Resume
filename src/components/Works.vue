@@ -61,7 +61,7 @@
                             }
                         ],
                         moreImgUrl: [
-                            require('@/assets/images/code/3M/index.png')
+                            require('@/assets/images/code/3m/index.png')
                         ]
                     },
                     {
@@ -112,12 +112,12 @@
                             }
                         ],
                         moreImgUrl: [
-                            require('@/assets/images/code/Ezding/1.jpg'),
-                            require('@/assets/images/code/Ezding/6.png'),
-                            require('@/assets/images/code/Ezding/2.jpg'),
-                            require('@/assets/images/code/Ezding/4.png'),
-                            require('@/assets/images/code/Ezding/3.jpg'),
-                            require('@/assets/images/code/Ezding/5.png'),
+                            require('@/assets/images/code/ezding/1.jpg'),
+                            require('@/assets/images/code/ezding/6.png'),
+                            require('@/assets/images/code/ezding/2.jpg'),
+                            require('@/assets/images/code/ezding/4.png'),
+                            require('@/assets/images/code/ezding/3.jpg'),
+                            require('@/assets/images/code/ezding/5.png'),
                         ]
                     },
                     {
@@ -128,7 +128,7 @@
                         directions: '一個重機愛好者的網站，我負責重機相關文章的行動版切版',
                         linkUrl: [],
                         moreImgUrl: [
-                            require('@/assets/images/code/Moto7/1.png')
+                            require('@/assets/images/code/moto7/1.png')
                         ]
                     }
                 ]
