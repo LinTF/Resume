@@ -68,7 +68,7 @@
                             </div>
                             <div class="info-item vertical-center">
                                 <p class="title">說明</p>
-                                <p class="info">{{ propsWorkInfo.directions }}</p>
+                                <p class="info">{{ propsWorkInfo.description }}</p>
                             </div>
                         </div>
                     </div>
@@ -106,6 +106,21 @@
                 } else if (type === 'Vue') {
                     return {
                         backgroundColor: '#64B687',
+                        color: '#ffffff',
+                    }
+                } else if (type === 'Sketch') {
+                    return {
+                        backgroundColor: '#F3B13E',
+                        color: '#ffffff',
+                    }
+                } else if (type === 'VB.NET') {
+                    return {
+                        backgroundColor: '#514896',
+                        color: '#ffffff',
+                    }
+                } else if (type === 'MMSQL') {
+                    return {
+                        backgroundColor: '#AA4F4E',
                         color: '#ffffff',
                     }
                 }
