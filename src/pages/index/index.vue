@@ -38,7 +38,14 @@
                     </div>
                 </div>
             </div>
-        </div>    
+        </div>
+
+        <a href="../portfolio.html">
+            <div class="portfolio">
+                點我看作品
+                <span class="arrow">&rarr;</span>
+            </div>
+        </a>
 
         <div id="contact">
             <contact />
@@ -69,8 +76,47 @@
     }
   </script>
   
-  <style scoped>
+  <style scoped lang="scss">
+    #contact {
+        margin-top: 0px;
+    }
+
     .navbar {
         margin-bottom: 0px;
+    }
+
+    a {
+        font-size: 23px;
+        color: #fff;
+        letter-spacing: 2px;
+        text-decoration:none;
+
+        .portfolio {
+            background-color: #D7A590;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+            
+            .arrow {
+                left: 0;
+                opacity: 0;
+                transform: translate(-100%, -50%);
+                transition: transform 0.5s ease;
+            }
+
+            &:hover {
+                background-color: #f8f9fa;
+                color: #D7A590;
+
+                .arrow {
+                    opacity: 1;
+                    position: relative;
+                    transform: translate(0, -50%);
+                    display: inline-block;
+                    top: 17px;
+                    color: #D7A590;
+                }
+            }
+        }
     }
   </style>

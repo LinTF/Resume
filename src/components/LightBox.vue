@@ -123,6 +123,16 @@
                         backgroundColor: '#AA4F4E',
                         color: '#ffffff',
                     }
+                } else if (type === 'Adobe XD') {
+                    return {
+                        backgroundColor: '#400835',
+                        color: '#ffffff',
+                    }
+                } else if (type === 'Adobe Photoshop') {
+                    return {
+                        backgroundColor: '#262438',
+                        color: '#ffffff',
+                    }
                 }
             }
         }
@@ -158,7 +168,7 @@
             border-radius: 20px;
             margin-right: 10px;
             padding: 5px 10px;
-            width: 100px;
+            max-width: initial;
             display: inline-table;
             text-align: center;
         }
