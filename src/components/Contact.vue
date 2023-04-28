@@ -10,14 +10,14 @@
                     <div class="icon">
                         <i class="fa-solid fa-mobile-screen-button"></i>
                     </div>
-                    <span>0910290508</span>
+                    <a href="tel:0910290508">0910290508</a>
                 </div>
                 
                 <div class="contact-item">
                     <div class="icon">
                         <i class="fa-solid fa-envelope-open-text"></i>
                     </div>
-                    <span>lin.tf1124@gmail.com</span>
+                    <a href="mailto:lin.tf1124@gmail.com">lin.tf1124@gmail.com</a>
                 </div>
             </div>
         </div>
