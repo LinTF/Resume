@@ -1,11 +1,11 @@
 <template>
     <div class="row">
-        <div :class="[{ 'col-md-6': onlyMainSkill === true }, { 'col-md-3': onlyMainSkill === false }]" v-for="(iSkill, index) in filterSkill" :key= "index">
+        <div :class="[{ 'col-md-6': onlyMainSkill === true }, { 'col-md-3': onlyMainSkill === false }]" v-for="(iSkill, index) in filterSkill" :key="index">
             <div class="skill-item">
                 <div class="row">
                     <div class="col-5 vertical-center">
                         <div class="skill-icon">
-                            <img :src = iSkill.imgUrl />
+                            <img :src= iSkill.imgUrl />
                         </div>
                     </div>
                     <div class="col-7">
@@ -147,6 +147,6 @@
     }
 </script>
 
-<style>
-
+<style scoped lang="scss">
+    
 </style>

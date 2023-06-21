@@ -21,7 +21,7 @@
         <div class="container">
             <div id="home">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-4">
                         <div class="block-title">
                             <h2># 常用工具與技能</h2>
                         </div>
@@ -30,11 +30,19 @@
                             <skill :onlyMainSkill="true" />
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-4">
                         <div class="block-title">
                             <h2># 最新經歷</h2>
                         </div>
                         <experience :onlyNewestJob="true" />
+                    </div>
+                    <div class="col-md-4">
+                        <div class="block-title">
+                            <h2># 紀錄</h2>
+                        </div>
+                        <div class="row">
+                            <recordBlock />
+                        </div>
                     </div>
                 </div>
             </div>
@@ -63,6 +71,7 @@
     import experience from '../../components/Experience.vue';
     import contact from '../../components/Contact.vue';
     import copyRight from '../../components/CopyRight.vue';
+    import recordBlock from './Record.vue';
     
     export default {
         name: 'Home',
@@ -71,7 +80,8 @@
             contact,
             copyRight,
             skill,
-            experience
+            experience,
+            recordBlock,
         }
     }
   </script>
@@ -117,6 +127,16 @@
                     color: #D7A590;
                 }
             }
+        }
+    }
+
+    .timeline {
+        padding: .5rem;
+    }
+
+    ::v-deep .skill-icon {
+        img {
+            height: 50px !important;
         }
     }
   </style>
