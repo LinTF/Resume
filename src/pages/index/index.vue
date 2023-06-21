@@ -34,7 +34,7 @@
                         <div class="block-title">
                             <h2># 最新經歷</h2>
                         </div>
-                        <experience :onlyNewestJob="true" />
+                        <experience :getNewestJob="true" />
                     </div>
                     <div class="col-md-4">
                         <div class="block-title">
