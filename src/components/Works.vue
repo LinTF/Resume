@@ -65,6 +65,22 @@
                         ]
                     },
                     {
+                        title: 'Todolist 待辦清單',
+                        category: 'frontend',
+                        note: '全前端',
+                        type: [ 'Vue', 'Bootstrap', 'SCSS' ],
+                        description: '在 Vue 的練習中，選擇 todolist 做完一個小 side project ，運用了 list array push 新增、find 尋找與 splice 刪除、日期格式化與轉換、使用 localStorage 做儲存、日期倒序排列、待辦事項的狀態顯示與判斷等，使自己更熟悉 Vue。',
+                        linkUrl: [
+                            {   
+                                name: 'Todolist',
+                                linkUrl: 'https://lintf.github.io/TodoList/'
+                            }
+                        ],
+                        moreImgUrl: [
+                            require('@/assets/images/code/todolist/todolist.jpg')
+                        ]
+                    },
+                    {
                         title: '收支分析表',
                         category: 'frontend',
                         note: '全前端',
