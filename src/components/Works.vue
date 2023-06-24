@@ -74,6 +74,10 @@
                             {   
                                 name: 'Todolist',
                                 linkUrl: 'https://lintf.github.io/TodoList/'
+                            },
+                            {
+                                name: 'Github',
+                                linkUrl: 'https://github.com/LinTF/TodoList'
                             }
                         ],
                         moreImgUrl: [
@@ -90,6 +94,10 @@
                             {
                                 name: '收支分析表',
                                 linkUrl: 'https://lintf.github.io/IncomePlan/'
+                            },
+                            {
+                                name: 'Github',
+                                linkUrl: 'https://github.com/LinTF/IncomePlan'
                             }
                         ],
                         moreImgUrl: [
