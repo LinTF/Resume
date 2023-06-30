@@ -13,13 +13,13 @@
 
     <!-- 內容 -->
     <div class="row">
-        <div class="col-md-4" v-for="word in filteredItems" :key="word.title">
-            <a class="work-item" data-bs-toggle="modal" data-bs-target="#exampleModal" @click="workInfo(word.title + '_' + word.note)">
-                <img :src="word.moreImgUrl[0]" />
+        <div class="col-md-4" v-for="work in filteredItems" :key="work.title">
+            <a class="work-item" data-bs-toggle="modal" data-bs-target="#exampleModal" @click="workInfo(work.title + '_' + work.note)">
+                <img :src="work.moreImgUrl[0]" />
                 <div class="mask vertical-center">
                     <div>
-                        <h3>{{ word.title }}</h3>
-                        <p>{{ word.note }}</p>
+                        <h3>{{ work.title }}</h3>
+                        <p>{{ work.note }}</p>
                     </div>
                 </div>
             </a>
@@ -105,11 +105,11 @@
                         ]
                     },
                     {
-                        title: '統計報表',
+                        title: 'MS SQL',
                         category: 'rearend',
-                        note: '資料庫組合、報表設計',
-                        type: [ 'VB.NET', 'MMSQL' ],
-                        description: '在專案中，將資料依照客戶需求設計出統計報表，並提供下載。',
+                        note: '資料庫',
+                        type: [ 'MMSQL' ],
+                        description: '1. 規劃資料表 2. 建立資料表 3. 基本 select、join 4.預存程序',
                         linkUrl: [],
                         moreImgUrl: [
                             require('@/assets/images/icon/sql.png')
