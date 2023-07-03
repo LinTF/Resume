@@ -68,6 +68,9 @@
                             </div>
                             <div class="info-item vertical-center">
                                 <p class="title">說明</p>
+                                <!-- <ul>
+                                    <li v-for="textVal in textList" :key="textVal">{{ textVal }}</li>
+                                </ul> -->
                                 <p class="info">{{ propsWorkInfo.description }}</p>
                             </div>
                         </div>
@@ -90,6 +93,15 @@
                 type: Object,
                 required: true,
             }
+        },
+        data() {
+            return {
+                tetstTxt: this.propsWorkInfo.description,
+                textList: []
+            }
+        },
+        mounted() {
+            this.textList = this.tetstTxt.split('、');
         },
         methods: {
             getBgColor(type) {
