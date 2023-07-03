@@ -20,5 +20,6 @@ module.exports = defineConfig({
       filename: 'portfolio.html',
       title: '林婷芳_作品集'
     }
-  }
+  },
+  publicPath: './'
 });
