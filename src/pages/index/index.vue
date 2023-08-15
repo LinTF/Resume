@@ -48,7 +48,7 @@
             </div>
         </div>
 
-        <a href="../portfolio.html">
+        <a href="./portfolio.html">
             <div class="portfolio">
                 點我看作品
                 <span class="arrow">&rarr;</span>
