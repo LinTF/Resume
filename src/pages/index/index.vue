@@ -29,7 +29,7 @@
         <div class="container">
             <div id="home">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-xxl-4 col-lg-6">
                         <div class="block-title">
                             <h2># 常用工具與技能</h2>
                         </div>
@@ -38,13 +38,13 @@
                             <skill :onlyMainSkill="true" />
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-xxl-4 col-lg-6">
                         <div class="block-title">
                             <h2># 最新經歷</h2>
                         </div>
                         <experience :getNewestJob="true" />
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-xxl-4">
                         <div class="block-title">
                             <h2># 紀錄</h2>
                         </div>

@@ -10,7 +10,7 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div>
-                            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                            <div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-bs-ride="carousel">
                                 <div class="carousel-indicators">
                                     <button type="button" 
                                         data-bs-target="#carouselExampleIndicators" 

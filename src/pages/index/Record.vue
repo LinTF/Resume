@@ -1,22 +1,26 @@
 <template>
-    <div class="block-bg" style="margin-bottom: 20px;">
-        <div>
-            <h6># Git</h6>
-            <ul>
-                <li v-for="item in gitList" :key="item">
-                    <a :href="item.link" target="_blank">{{ item.name }}</a>
-                </li>
-            </ul>
+    <div class="col-xxl-12 col-md-6">
+        <div class="block-bg" style="margin-bottom: 20px;">
+            <div>
+                <h6># Git</h6>
+                <ul>
+                    <li v-for="item in gitList" :key="item">
+                        <a :href="item.link" target="_blank">{{ item.name }}</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
-    <div class="block-bg">
-        <div>
-            <h6># medium</h6>
-            <ul>
-                <li v-for="item in mediumList" :key="item">
-                    <a :href="item.link" target="_blank">{{ item.name }}</a>
-                </li>
-            </ul>
+    <div class="col-xxl-12 col-md-6">
+        <div class="block-bg">
+            <div>
+                <h6># medium</h6>
+                <ul>
+                    <li v-for="item in mediumList" :key="item">
+                        <a :href="item.link" target="_blank">{{ item.name }}</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 </template>

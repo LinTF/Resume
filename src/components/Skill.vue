@@ -1,6 +1,6 @@
 <template>
     <div class="row">
-        <div :class="[{ 'col-md-6': onlyMainSkill === true }, { 'col-md-3': onlyMainSkill === false }]" v-for="(iSkill, index) in filterSkill" :key="index">
+        <div :class="[{ 'col-sm-6': onlyMainSkill === true }, { 'col-xl-3 col-lg-4 col-sm-6': onlyMainSkill === false }]" v-for="(iSkill, index) in filterSkill" :key="index">
             <div class="skill-item">
                 <div class="row">
                     <div class="col-5 vertical-center">
@@ -126,12 +126,7 @@
                         imgUrl: require('@/assets/images/icon/wordpress.png'),
                         type: '模板工具',
                         isMainSkill: false
-                    },
-                    // {
-                    //     name: 'Office',
-                    //     imgUrl: '/_img/office.png',
-                    //     type: ''
-                    // }
+                    }
                 ]
             }
         },

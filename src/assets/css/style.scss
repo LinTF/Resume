@@ -146,11 +146,11 @@ header {
 
 #contact {
     background-color: $white-color;
-    padding: 30px 50px 30px 50px;
+    padding: 30px 40px 30px 40px;
     margin-top: 20px;
 
     #info {
-        width: inherit;
+        min-width: 60%;
         background: $main-rbga-color;
         padding: 20px;
         border-radius: 20px;

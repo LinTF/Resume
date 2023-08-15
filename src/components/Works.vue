@@ -13,7 +13,7 @@
 
     <!-- 內容 -->
     <div class="row">
-        <div class="col-md-4" v-for="work in filteredItems" :key="work.title">
+        <div class="col-xl-4 col-md-6" v-for="work in filteredItems" :key="work.title">
             <a class="work-item" data-bs-toggle="modal" data-bs-target="#exampleModal" @click="workInfo(work.title + '_' + work.note)">
                 <img :src="work.moreImgUrl[0]" />
                 <div class="mask vertical-center">
@@ -327,13 +327,13 @@
 
     .category-btn {
         text-align: center;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
         margin-top: 50px;
 
         button {
             border-radius: 20px;
             padding: 5px 15px;
-            margin: 0px 10px;
+            margin: 5px 10px;
             background: #fff;
             border: 1px solid #ccc;
 
@@ -348,6 +348,9 @@
         position: relative;
         display: block;
         height: 320px;
+        margin-bottom: 20px;
+        border: 1px solid #f0f4f7;
+        border-radius: 15px;
 
         img {
             width: 100%;   

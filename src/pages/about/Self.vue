@@ -1,13 +1,13 @@
 <template>
     <div id="self">
         <div class="row">
-            <div class="col-sm-2"></div>
-            <div class="col-sm-4">
+            <div class="col-xl-2 col-lg-1"></div>
+            <div class="col-xl-4 col-lg-5 col-sm-6">
                 <div>
                     <img :src= photoUrl class="photo" />
                 </div>
             </div>
-            <div class="col-sm-4 vertical-center">
+            <div class="col-xl-4 col-lg-5 col-sm-6 vertical-center">
                 <div>
                     <h2>{{ greet }}</h2>
                     <h4>{{ jobTitle }}</h4>
@@ -15,7 +15,7 @@
                     <platform />
                 </div>
             </div>
-            <div class="col-sm-2"></div>
+            <div class="col-xl-2 col-lg-1"></div>
         </div>
     </div>
 </template>

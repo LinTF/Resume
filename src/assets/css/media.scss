@@ -10,6 +10,9 @@
 @mixin mobile-only {
     @media screen and (max-width: 600px) { @content; }
 }
+@mixin lg-only {
+    @media screen and (max-width: 1000px) { @content; }
+}
 
 .timeline {
     .time-item {
@@ -26,3 +29,21 @@
     }
 }
 
+.tag-block {
+    @include lg-only {
+        padding-left: 0px;
+    }
+}
+
+.block-title {
+    @include lg-only {
+        margin-top: 20px;
+    }
+}
+
+#info {
+    @include tablet-and-down {
+        width: 100%;
+        margin-bottom: 30px !important;
+    }
+}
