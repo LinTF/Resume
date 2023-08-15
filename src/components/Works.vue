@@ -105,6 +105,21 @@
                         ]
                     },
                     {
+                        title: '設計規範',
+                        category: 'frontend',
+                        note: '設計規範個說明',
+                        type: [ 'Adobe XD', 'SCSS' ],
+                        description: '網頁的設計規範，在專案開始前，統一整體網頁視覺風格，開案後將 class 樣式制定好，以利工程師在開發時直接套用，提升效率。',
+                        linkUrl: [
+                            {
+                                
+                            }
+                        ],
+                        moreImgUrl: [
+                            require('@/assets/images/design/designnotes.jpg')
+                        ]
+                    },
+                    {
                         title: 'MS SQL',
                         category: 'rearend',
                         note: '資料庫',
