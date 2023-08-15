@@ -19,7 +19,7 @@
                         <li class="tag">專長｜Web RWD</li>
                         <li class="tag">專長｜後端系統開發</li>
                         <li class="tag">專長｜資料庫應用</li>
-                        <li class="tag">專長｜UI設計</li>
+                        <li class="tag">專長｜UI 設計</li>
                         <li class="tag" style="background-color: #d78b4a;">新專長｜前端框架 - Vue</li>
                         <li class="tag" style="background-color: #d78b4a;">新專長｜Node.js</li>
                     </ul>
