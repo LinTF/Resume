@@ -16,7 +16,7 @@
                     <ul class="tag-block">
                         <li class="tag" style="background-color: #2a6882">學歷｜輔仁大學經濟學系</li>
                         <li class="tag">專長｜Web 切版</li>
-                        <li class="tag">專長｜Web｜RWD</li>
+                        <li class="tag">專長｜Web RWD</li>
                         <li class="tag">專長｜後端系統開發</li>
                         <li class="tag">專長｜資料庫應用</li>
                         <li class="tag">專長｜UI設計</li>
