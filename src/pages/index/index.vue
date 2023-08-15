@@ -10,11 +10,19 @@
                     <h2>軟體工程師</h2>
                 </div>
                 <div>
-                    <p>
-                        畢業於輔仁大學經濟學系，在一個契機下學習了網站建置，享受寫程式的過程，從中也得到成就感，從WordPress套版到網頁設計，再到系統開發，從中學會前後端程式、資料庫操作、UI設計，同時兼顧使用者體驗．
-                        <br />
-                        喜歡分享事物與自我挑戰，期許自己未來能有更多元的嘗試與目標．
-                    </p>
+                    <!-- <p>
+                        畢業於輔仁大學經濟學系，充滿好奇的我對網站相當有興趣。統合所學專長，將分析與邏輯應用在工作上，透過不斷的學習精進，在訂定目標後走上coding之路成為軟體工程師。除了撰寫程式，也涵蓋UI設計與平面設計，能有效率的達成目標並持續成長。
+                    </p> -->
+                    <ul class="tag-block">
+                        <li class="tag" style="background-color: #2a6882">學歷｜輔仁大學經濟學系</li>
+                        <li class="tag">專長｜Web 切版</li>
+                        <li class="tag">專長｜Web｜RWD</li>
+                        <li class="tag">專長｜後端系統開發</li>
+                        <li class="tag">專長｜資料庫應用</li>
+                        <li class="tag">專長｜UI設計</li>
+                        <li class="tag" style="background-color: #d78b4a;">新專長｜前端框架 - Vue</li>
+                        <li class="tag" style="background-color: #d78b4a;">新專長｜Node.js</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -137,6 +145,26 @@
     ::v-deep .skill-icon {
         img {
             height: 50px !important;
+        }
+    }
+
+    .tag-block {
+        margin-top: 20px;
+        margin-bottom: 0px;
+
+        li {
+            list-style-type: none;
+        }
+
+        .tag {
+            background-color: #81ac9e;
+            text-align: center;
+            padding: 5px 10px;
+            border-radius: 20px;
+            color: #fff;
+            margin: 5px 10px;
+            display: inline-block;
+            white-space: nowrap;
         }
     }
   </style>
