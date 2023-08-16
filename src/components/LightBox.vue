@@ -8,7 +8,7 @@
             </div>
             <div class="modal-body">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-lg-6">
                         <div>
                             <div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-bs-ride="carousel">
                                 <div class="carousel-indicators">
@@ -40,7 +40,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-lg-6">
                         <div>
                             <div class="info-item vertical-center">
                                 <p class="title">執行範疇</p>
@@ -183,6 +183,7 @@
             max-width: initial;
             display: inline-table;
             text-align: center;
+            margin: 5px 10px 5px 0px;
         }
 
         a {
