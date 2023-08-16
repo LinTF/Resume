@@ -349,13 +349,15 @@
         display: block;
         height: 320px;
         margin-bottom: 20px;
-        border: 1px solid #f0f4f7;
-        border-radius: 15px;
+        border: 1px solid;
+        border-radius: 3px;
+        border-color: rgba(249, 182, 156, .3);
 
         img {
             width: 100%;   
             height: 100%;   
             object-fit:cover;
+            border-radius: 3px;
         }
 
         .mask {
