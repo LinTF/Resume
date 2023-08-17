@@ -116,7 +116,7 @@
                             }
                         ],
                         moreImgUrl: [
-                            require('@/assets/images/design/designnotes-1200.jpg')
+                            require('@/assets/images/design/ui/designnorm/designnotes-1200.jpg')
                         ]
                     },
                     {
