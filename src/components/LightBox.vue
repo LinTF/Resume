@@ -56,7 +56,7 @@
                                     </span>
                                 </p>
                             </div>
-                            <div class="info-item vertical-center" v-if="propsWorkInfo.linkUrl && propsWorkInfo.linkUrl.length">
+                            <div class="info-item vertical-center" v-if="Array.isArray(propsWorkInfo.linkUrl) && propsWorkInfo.linkUrl.length > 0">
                                 <p class="title">網址</p>
                                 <p class="info">
                                     <a v-for="itemUrl in propsWorkInfo.linkUrl" 
