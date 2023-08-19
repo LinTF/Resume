@@ -107,18 +107,49 @@
                     {
                         title: '設計規範',
                         category: 'frontend',
-                        note: '設計規範個說明',
+                        note: '設計規範說明',
                         type: [ 'Adobe XD', 'SCSS' ],
                         description: '網頁的設計規範，在專案開始前，統一整體網頁視覺風格，開案後將 class 樣式制定好，以利工程師在開發時直接套用，提升效率。',
-                        linkUrl: [
-                            {
-                                
-                            }
-                        ],
+                        linkUrl: [],
                         moreImgUrl: [
                             require('@/assets/images/design/ui/designnorm/designnotes-1200.jpg')
                         ]
                     },
+                    // {
+                    //     title: '儀表板',
+                    //     category: 'frontend',
+                    //     note: '儀表板設計（UI）',
+                    //     type: [ 'Adobe XD' ],
+                    //     description: '將首頁(index)設計為 dashboard 的概念，登入系統後可以快速了解各行政區納管統計、產業類別比例、申請登記狀況等統計圖，將訊息圖像化。（投標功能雛形發想，非為實際系統內容、資料與畫面）',
+                    //     linkUrl: [],
+                    //     moreImgUrl: [
+                    //         require('@/assets/images/design/ui/dashboard/工廠履歷儀表板_web.jpg'),
+                    //         require('@/assets/images/design/ui/dashboard/工廠履歷儀表板_iPad.jpg')
+                    //     ]
+                    // },
+                    // {
+                    //     title: '地圖',
+                    //     category: 'frontend',
+                    //     note: '地圖設計（UI）',
+                    //     type: [ 'Adobe XD' ],
+                    //     description: '此工廠地圖規劃可定位所選取的行政區，並且顯示區在所選的行政區內的工廠，點擊後可顯示工廠資料，由於可能所屬的行政區工廠眾多，在右下角可以輸入工廠名稱做定位，另外有平移、測量、列印、繪製等圖台功能。（投標功能雛形發想，非為實際系統內容、資料與畫面）',
+                    //     linkUrl: [],
+                    //     moreImgUrl: [
+                    //         require('@/assets/images/design/ui/map/地圖_web.jpg'),
+                    //         require('@/assets/images/design/ui/map/地圖_iPad.jpg')
+                    //     ]
+                    // },
+                    // {
+                    //     title: '趨勢分析',
+                    //     category: 'frontend',
+                    //     note: '趨勢分析（UI）',
+                    //     type: [ 'Adobe XD' ],
+                    //     description: '此資料圖像快搜平常，故發想結合搜尋形成的趨勢分析，條件設定日期區間、場所、毒品種類將資料做統計後，使用統計圖表呈現，除了顯示搜尋的毒品種類與場所統計外，還有男女年紀百分比與平均年齡，利用這樣的統計進行分析。（投標功能雛形發想，非為實際系統內容、資料與畫面）',
+                    //     linkUrl: [],
+                    //     moreImgUrl: [
+                    //         require('@/assets/images/design/ui/search/趨勢分析.jpg')
+                    //     ]
+                    // },
                     {
                         title: 'MS SQL',
                         category: 'rearend',
