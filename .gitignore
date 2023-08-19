@@ -27,4 +27,3 @@ pnpm-debug.log*
 # self settings
 /src/assets/images/_暫存
 /src/assets/images/dontupdate
-/src/components/Works.vue
