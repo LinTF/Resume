@@ -11,7 +11,7 @@
                 <div>
                     <h2>{{ greet }}</h2>
                     <h4>{{ jobTitle }}</h4>
-                    <p>{{ selfText }}</p>
+                    <p style="text-align:justify">{{ selfText }}</p>
                     <platform />
                 </div>
             </div>
