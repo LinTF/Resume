@@ -39,7 +39,7 @@
                         name: '前端（含 UI 設計）'
                     },
                     {
-                        category: 'rearend',
+                        category: 'backend',
                         name: '後端'
                     },
                     {
@@ -152,7 +152,7 @@
                     },
                     {
                         title: 'MS SQL',
-                        category: 'rearend',
+                        category: 'backend',
                         note: '資料庫',
                         type: [ 'MMSQL' ],
                         description: '1. 規劃資料表 2. 建立資料表 3. 基本 select、join 4.預存程序',
