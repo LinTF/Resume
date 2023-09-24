@@ -6,6 +6,7 @@ $main-rbga-color: rgba(249,182,156,.3);
 $black-color: #171717;
 $white-color: #f8f9fa;
 $gray-color: #a6a6a6;
+$portfolio-page-color: rgb(249, 182, 156);
 
 @mixin btn {
     padding: 10px 30px 10px 30px;
@@ -263,4 +264,17 @@ footer {
 .nav-link {
     color: $main-color;
     font-weight: 500;
+}
+
+.btn-primary {
+    background-color: $portfolio-page-color;
+    border-color: $portfolio-page-color;
+}
+
+.btn {
+    &:hover {
+        background-color: $white-color !important;
+        border-color: $portfolio-page-color !important;
+        color: $portfolio-page-color !important;
+    }
 }
