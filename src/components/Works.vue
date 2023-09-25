@@ -53,12 +53,19 @@
                         category: 'frontend',
                         note: '網頁切版、網頁版型設計',
                         type: [ 'Bootstrap', 'SCSS', 'Adobe XD' ],
-                        description: '我負責設計和切版，介紹 3M 全戶淨水系統產品的使用場景。在這個網頁中，著重於，依照使用者需求的方式呈現產品的特點和優勢，同時使用現代化的設計元素和布局，使網頁看起來更加吸引人。',
-                        linkUrl: [
-                            {   
-                                name: '3M全戶淨水系統',
-                                linkUrl: 'https://findmyfilter.com.tw/'
+                        description: [
+                            {
+                                text: '負責 3M 全戶淨水系統產品網站，使用場景頁面設計與切版。'
+                            },
+                            {
+                                text: '此網站著重於使用者需求的選擇，依需呈現推薦的產品與特點。'
                             }
+                        ],
+                        linkUrl: [
+                            // {   
+                            //     name: '3M全戶淨水系統',
+                            //     // linkUrl: 'https://findmyfilter.com.tw/'
+                            // }
                         ],
                         moreImgUrl: [
                             require('@/assets/images/code/3m/index.png')
@@ -69,7 +76,14 @@
                         category: 'frontend',
                         note: '全前端',
                         type: [ 'Vue', 'Bootstrap', 'SCSS' ],
-                        description: '在 Vue 的練習中，選擇 todolist 做完一個小 side project ，運用了 list array push 新增、find 尋找與 splice 刪除、日期格式化與轉換、使用 localStorage 做儲存、日期倒序排列、待辦事項的狀態顯示與判斷等，使自己更熟悉 Vue。',
+                        description: [
+                            {
+                                text: '使用 Vue 框架完成的 side project - todolist。'
+                            },
+                            {
+                                text: '運用了 list array push 新增、find 尋找與 splice 刪除、日期格式化與轉換、使用 localStorage 做儲存、日期倒序排列、待辦事項狀態顯示與判斷等，使自己更熟悉 Vue。'
+                            }
+                        ],
                         linkUrl: [
                             {   
                                 name: 'Todolist',
@@ -89,7 +103,14 @@
                         category: 'frontend',
                         note: '全前端',
                         type: [ 'Vue', 'Bootstrap', 'SCSS' ],
-                        description: '這是我使用 Vue 完成的第一個 side project。在這個小專案中，深入了解了 Vue 的建立方式、元件的使用方法、props 傳遞、$emit 事件觸發、components 組件、computed 屬性、methods 方法、以及專案的打包等相關技術。',
+                        description: [
+                            {
+                                text: '此 side project 是我使用 Vue 框架完成的第一個小專案。'
+                            },
+                            {
+                                text: '在這個小專案中，深入了解了 Vue 的建立方式、元件的使用方法、props 傳遞、$emit 事件觸發、components 組件、computed 屬性、methods 方法、以及專案的打包等相關技術。'
+                            }
+                        ],
                         linkUrl: [
                             {
                                 name: '收支分析表',
@@ -109,7 +130,11 @@
                         category: 'frontend',
                         note: '設計規範說明',
                         type: [ 'Adobe XD', 'SCSS' ],
-                        description: '網頁的設計規範，在專案開始前，統一整體網頁視覺風格，開案後將 class 樣式制定好，以利工程師在開發時直接套用，提升效率。',
+                        description: [
+                            {
+                                text: '設計與統整網頁的設計規範，在專案開始前，統一整體網頁視覺風格，開案後將 class 樣式制定好，以利工程師在開發時直接套用，提升效率並維持整體風格。'
+                            }
+                        ],
                         linkUrl: [],
                         moreImgUrl: [
                             require('@/assets/images/design/ui/designnorm/designnotes-1200.jpg')
@@ -120,7 +145,14 @@
                         category: 'frontend',
                         note: '儀表板設計（UI）',
                         type: [ 'Adobe XD' ],
-                        description: '將首頁(index)設計為 dashboard 的概念，登入系統後可以快速了解各行政區納管統計、產業類別比例、申請登記狀況等統計圖，將訊息圖像化。（投標功能雛形發想，非為實際系統內容、資料與畫面）',
+                        description: [
+                            {
+                                text: '將首頁設計為儀表板的概念，登入系統後可以快速了解各行政區納管統計、產業類別比例、申請登記狀況等統計圖，將訊息圖像化。'
+                            },
+                            {
+                                text: '（投標功能雛形發想，非為實際系統內容、資料與畫面）'
+                            }
+                        ],
                         linkUrl: [],
                         moreImgUrl: [
                             require('@/assets/images/design/ui/dashboard/工廠履歷儀表板_web.jpg'),
@@ -132,7 +164,14 @@
                         category: 'frontend',
                         note: '地圖設計（UI）',
                         type: [ 'Adobe XD' ],
-                        description: '此工廠地圖規劃可定位所選取的行政區，並且顯示區在所選的行政區內的工廠，點擊後可顯示工廠資料，由於可能所屬的行政區工廠眾多，在右下角可以輸入工廠名稱做定位，另外有平移、測量、列印、繪製等圖台功能。（投標功能雛形發想，非為實際系統內容、資料與畫面）',
+                        description: [
+                            {
+                                text: '此工廠地圖規劃可定位所選取的行政區，並且顯示區在所選的行政區內的工廠，點擊後可顯示工廠資料，由於可能所屬的行政區工廠眾多，在右下角可以輸入工廠名稱做定位，另外有平移、測量、列印、繪製等圖台功能。'
+                            },
+                            {
+                                text: '（投標功能雛形發想，非為實際系統內容、資料與畫面）'
+                            }
+                        ],
                         linkUrl: [],
                         moreImgUrl: [
                             require('@/assets/images/design/ui/map/地圖_web.jpg'),
@@ -144,21 +183,140 @@
                         category: 'frontend',
                         note: '趨勢分析（UI）',
                         type: [ 'Adobe XD' ],
-                        description: '發想以圖表結合搜尋形成的趨勢分析，條件設定日期區間、場所、毒品種類將資料做統計後，使用統計圖表呈現，除了顯示搜尋的毒品種類與場所統計外，還有男女年紀百分比與平均年齡，利用這樣的統計進行分析。（投標功能雛形發想，非為實際系統內容、資料與畫面）',
+                        description: [
+                            {
+                                text: '發想以圖表結合搜尋形成的趨勢分析，條件設定日期區間、場所、毒品種類將資料做統計，另外還有男女年紀百分比與平均年齡分佈統計，以利進行趨勢分析。'
+                            },
+                            {
+                                text: '（投標功能雛形發想，非為實際系統內容、資料與畫面）'
+                            }
+                        ],
                         linkUrl: [],
                         moreImgUrl: [
                             require('@/assets/images/design/ui/search/趨勢分析.jpg')
                         ]
                     },
                     {
-                        title: 'MS SQL',
+                        title: 'Excel 統計報表與圖表',
                         category: 'backend',
-                        note: '資料庫',
-                        type: [ 'MMSQL' ],
-                        description: '1. 規劃資料表 2. 建立資料表 3. 基本 select、join 4.預存程序',
+                        note: '後端、資料庫',
+                        type: [ 'VB.NET', 'MSSQL' ],
+                        description: [
+                            {
+                                text: '依查詢條件寫 sql 語句 select 組成查詢結果，在部分欄位可點擊箭頭做資料排序。'
+                            },
+                            {
+                                text: '提供使用者將查詢結果下載 excel 檔案，查詢結果資料值使用 highcharts 繪製出來。'
+                            },
+                            {
+                                text: '（此畫面僅是示意圖，非實際功能畫面）'
+                            }
+                        ],
                         linkUrl: [],
                         moreImgUrl: [
-                            require('@/assets/images/icon/sql.png')
+                            require('@/assets/images/code/backend/Excel統計與圖表.jpg')
+                        ]
+                    },
+                    {
+                        title: 'Word 報告產製',
+                        category: 'backend',
+                        note: '後端、資料庫',
+                        type: [ 'VB.NET', 'MSSQL' ],
+                        description: [
+                            {
+                                text: '使用者輸入欲替換的段落文字，點擊產製報告後，將輸入的文字儲存至資料庫。'
+                            },
+                            {
+                                text: '接著將輸入的文字做 replace 替換報告內的文字，此外也可替換統計圖、表格固定內容與非固定 row 表格生成。'
+                            },
+                            {
+                                text: '完成替換後的 word 檔儲存至指定的相對位置，提供使用者之後下載使用。'
+                            },
+                            {
+                                text: '（此畫面僅是示意圖，非實際功能畫面）'
+                            }
+                        ],
+                        linkUrl: [],
+                        moreImgUrl: [
+                            require('@/assets/images/code/backend/Word報告產製.jpg')
+                        ]
+                    },
+                    {
+                        title: '多權限應用與其功能',
+                        category: 'backend',
+                        note: '後端、資料庫',
+                        type: [ 'VB.NET', 'MSSQL' ],
+                        description: [
+                            {
+                                text: '開發不同權限不同系統功能與相關聯的資料顯示，依照不同權限別做不相同功能應用。'
+                            },
+                            {
+                                text: '輸入編號區間，點擊產生編號按鈕，將編號區間內所有編號依序列出，此時也統計欲新增的編號數量。'
+                            },
+                            {
+                                text: '在建立編號區塊，選擇編號後可進行刪除，點擊新增按鈕可將編號寫進資料庫，並顯示於右邊使用編號的狀況區塊，編號已被使用會做註記，也分別計算"已使用"與"未使用"的編號數量。'
+                            },
+                            {
+                                text: '（此畫面僅是示意圖，非實際功能畫面）'
+                            }
+                        ],
+                        linkUrl: [],
+                        moreImgUrl: [
+                            require('@/assets/images/code/backend/多權限應用與其功能.jpg')
+                        ]
+                    },
+                    {
+                        title: 'QRcode',
+                        category: 'backend',
+                        note: '後端',
+                        type: [ 'VB.NET', 'MSSQL' ],
+                        description: [
+                            {
+                                text: '點擊產製 QRcode 後，將 domainName、要進入的頁面 url、產品編號等 id 識別碼轉換為 QRcode，指定圖檔大小，設定檔案名稱，將圖檔存入指定位置。'
+                            },
+                            {
+                                text: '抓取指定位置 QRcode 圖檔顯示於頁面上，可供使用者手機掃描後進入產品頁面，查看詳細資料。'
+                            }
+                        ],
+                        linkUrl: [],
+                        moreImgUrl: [
+                            require('@/assets/images/code/backend/QRcode.jpg')
+                        ]
+                    },
+                    {
+                        title: 'Barcode',
+                        category: 'backend',
+                        note: '後端',
+                        type: [ 'VB.NET', 'MSSQL' ],
+                        description: [
+                            {
+                                text: '輸入欲產生的一維碼數量，自動依照編碼規則產製一維碼。'
+                            },
+                            {
+                                text: '設定檔案名稱與一維條碼圖檔大小，儲存至指定位置。'
+                            },
+                            {
+                                text: '圖檔放入 word 檔並下載，使用者用掃描機掃一維碼，即可顯示該編碼。'
+                            }
+                        ],
+                        linkUrl: [],
+                        moreImgUrl: [
+                            require('@/assets/images/code/backend/barcode.jpg')
+                        ]
+                    },
+                    {
+                        title: 'Other',
+                        category: 'backend',
+                        note: '後端、資料庫',
+                        type: [ 'VB.NET', 'MSSQL' ],
+                        description: [
+                            {
+                                text: ''
+                            }
+                        ],
+                        linkUrl: [],
+                        moreImgUrl: [
+                            require('@/assets/images/code/backend/Other.jpg')
                         ]
                     },
                     {
@@ -166,7 +324,17 @@
                         category: 'frontend',
                         note: '全前端、網頁版型設計',
                         type: [ 'Bootstrap', 'SCSS', 'Sketch' ],
-                        description: '負責為客戶設計網站的套版，並提供多種選擇，以滿足客戶的不同需求。並具行動裝置的兼容性，以確保網站在不同設備上都能正常顯示。此外，還負責網站版型設計和前端畫面的切版，並實現各種互動效果，以提高網站的使用體驗。',
+                        description: [
+                            {
+                                text: '負責設計多種網站套版，做為客戶的網站，設計多種版型，滿足客戶的不同需求。'
+                            },
+                            {
+                                text: '具行動裝置的兼容性，網站在不同設備上都能有良好的使用體驗。'
+                            },
+                            {
+                                text: '此外，除了負責網站版型設計外，也涵蓋前端畫面的切版，並實現各種互動效果，提高網站的使用體驗。'
+                            }
+                        ],
                         linkUrl: [
                             {
                                 name: '連結 1',
@@ -195,7 +363,11 @@
                         category: 'frontend',
                         note: '全前端、網頁版型設計',
                         type: [ 'Bootstrap', 'SCSS', 'Sketch' ],
-                        description: '負責改版官網部分頁面，可支援行動裝置，並重新設計版面。',
+                        description: [
+                            {
+                                text: '負責改版官網部分頁面，可支援行動裝置，並重新設計版面。'
+                            }
+                        ],
                         linkUrl: [
                             {
                                 name: '新聞頁面',
@@ -224,7 +396,11 @@
                         category: 'frontend',
                         note: '切版',
                         type: [ 'Bootstrap', 'CSS' ],
-                        description: '負責切版影評文章頁面、影評文章內頁以及電影時刻列表頁面，並使用 RWD 技術實現了行動版的可觀賞性。',
+                        description: [
+                            {
+                                text: '負責切版影評文章頁面、影評文章內頁以及電影時刻列表頁面，並使用 RWD 技術實現了行動版的可觀賞性。'
+                            }
+                        ],
                         linkUrl: [
                             {
                                 name: '影評文章',
@@ -253,7 +429,11 @@
                         category: 'frontend',
                         note: '切版',
                         type: [ 'Bootstrap', 'SCSS' ],
-                        description: '一個重機愛好者的網站，我負責重機相關文章的行動版切版',
+                        description: [
+                            {
+                                text: '一個重機愛好者的網站，我負責重機相關文章的行動版依設計稿切版。'
+                            }
+                        ],
                         linkUrl: [],
                         moreImgUrl: [
                             require('@/assets/images/code/moto7/1.png')
@@ -264,7 +444,11 @@
                         category: 'design',
                         note: '展覽 Banner 設計',
                         type: [ 'Adobe Photoshop' ],
-                        description: '設計個展覽的 Banner 放置官網首頁等其他曝光地方',
+                        description: [
+                            {
+                                text: '設計各展覽的 Banner 放置官網首頁等其他廣告版位。'
+                            }
+                        ],
                         linkUrl: [],
                         moreImgUrl: [
                             require('@/assets/images/design/banner/show/杜拜汽配展/banner01.jpg'),
@@ -278,7 +462,11 @@
                         category: 'design',
                         note: '網路大數據時代 DM',
                         type: [ 'Adobe Photoshop' ],
-                        description: '網路大數據時代 DM',
+                        description: [
+                            {
+                                text: '網路大數據時代平面 DM 設計。'
+                            }
+                        ],
                         linkUrl: [],
                         moreImgUrl: [
                             require('@/assets/images/design/dm/大數據時代/網路dm-1.jpg'),
@@ -292,7 +480,11 @@
                         category: 'design',
                         note: '台灣照明展 DM',
                         type: [ 'Adobe Photoshop' ],
-                        description: '台灣照明展 DM',
+                        description: [
+                            {
+                                text: '台灣照明展平面 DM 設計。'
+                            }
+                        ],
                         linkUrl: [],
                         moreImgUrl: [
                             require('@/assets/images/design/dm/台灣照明/正反面-4.jpg')
@@ -303,7 +495,11 @@
                         category: 'design',
                         note: '秋燈展 DM',
                         type: [ 'Adobe Photoshop' ],
-                        description: '秋燈展 DM',
+                        description: [
+                            {
+                                text: '秋燈展平面 DM 設計。'
+                            }
+                        ],
                         linkUrl: [],
                         moreImgUrl: [
                             require('@/assets/images/design/dm/秋燈展/2017秋燈展DM-0502.jpg'),
@@ -315,7 +511,11 @@
                         category: 'design',
                         note: 'Banner 設計',
                         type: [ 'Adobe Photoshop' ],
-                        description: '將客戶要宣傳的 Banner 設計後，放置 Cesns 官網宣傳',
+                        description: [
+                            {
+                                text: '設計客戶要宣傳的 Banner，並放置廣告版位宣傳。'
+                            }
+                        ],
                         linkUrl: [],
                         moreImgUrl: [
                             require('@/assets/images/design/banner/firm/1.jpg'),

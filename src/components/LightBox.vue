@@ -68,10 +68,10 @@
                             </div>
                             <div class="info-item vertical-center">
                                 <p class="title">說明</p>
-                                <!-- <ul>
-                                    <li v-for="textVal in textList" :key="textVal">{{ textVal }}</li>
-                                </ul> -->
-                                <p class="info">{{ propsWorkInfo.description }}</p>
+                                <p class="info" v-if="Array.isArray(propsWorkInfo.description) && propsWorkInfo.description.length === 1">{{ propsWorkInfo.description[0].text }}</p>
+                                <ul class="info" v-else>
+                                    <li v-for="(partText, index) in propsWorkInfo.description" :key="index">{{ partText.text }}</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -96,12 +96,11 @@
         },
         data() {
             return {
-                tetstTxt: this.propsWorkInfo.description,
-                textList: []
+
             }
         },
         mounted() {
-            this.textList = this.tetstTxt.split('、');
+
         },
         methods: {
             getBgColor(type) {
@@ -130,7 +129,7 @@
                         backgroundColor: '#514896',
                         color: '#ffffff',
                     }
-                } else if (type === 'MMSQL') {
+                } else if (type === 'MSSQL') {
                     return {
                         backgroundColor: '#AA4F4E',
                         color: '#ffffff',
@@ -154,6 +153,7 @@
 <style scoped lang="scss">
     .info-item {
         display: flex;
+        display: -webkit-box;
         padding: 10px 8px;
 
         .title {
@@ -164,7 +164,15 @@
             text-align-last: justify;
         }
 
-        p {
+        p, ul {
+            margin-bottom: 0px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        li:last-child {
             margin-bottom: 0px;
         }
     }
@@ -175,6 +183,7 @@
 
     .info {
         width: 85%;
+        padding-right: 20px;
 
         span {
             border-radius: 20px;
