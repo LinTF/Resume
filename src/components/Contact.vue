@@ -26,7 +26,7 @@
                 <div>
                     <h3>與我聯絡</h3>
                 </div>
-                <form action="mailto:lin.tf1124@gmail.com" method="GET">
+                <form action="mailto:lin.tf1124@gmail.com" method="GET" autocomplete="off">
                     <div class="row">
                         <div class="mb-3">
                             <label for="formEmail" class="form-label">聯絡事項</label>
