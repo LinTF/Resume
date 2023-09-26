@@ -8,7 +8,7 @@
             </div>
             <div class="modal-body">
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-xl-6">
                         <div>
                             <div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-bs-ride="carousel">
                                 <div class="carousel-indicators">
@@ -40,7 +40,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-xl-6">
                         <div>
                             <div class="info-item vertical-center">
                                 <p class="title">執行範疇</p>
@@ -184,6 +184,7 @@
     .info {
         width: 85%;
         padding-right: 20px;
+        padding-top: 3px;
 
         span {
             border-radius: 20px;
@@ -211,6 +212,21 @@
         img {
             max-width: 100%;
             max-height: 500px;
+        }
+    }
+
+    @media screen and (max-width: 991px) { 
+        .info-item {
+            display: block;
+    
+            .title, .info {
+                width: 100%;
+            }
+    
+            .title {
+                text-align-last: unset;
+                margin-bottom: 10px;
+            }
         }
     }
 </style>
