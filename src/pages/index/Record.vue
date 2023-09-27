@@ -32,16 +32,16 @@
             return {
                 gitList:[
                     {
-                        name: 'Resume',
-                        link: 'https://github.com/LinTF/Resume'
-                    },
-                    {
                         name: 'IncomePlan',
                         link: 'https://github.com/LinTF/IncomePlan'
                     },
                     {
                         name: 'TodoList',
                         link: 'https://github.com/LinTF/TodoList'
+                    },
+                    {
+                        name: 'Resume',
+                        link: 'https://github.com/LinTF/Resume'
                     }
                 ],
                 mediumList: [
