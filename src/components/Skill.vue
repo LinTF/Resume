@@ -34,37 +34,55 @@
                     {
                         name: 'HTML',
                         imgUrl: require('@/assets/images/icon/html.png'),
-                        type: '程式語言',
+                        type: '前端程式語言',
                         isMainSkill: true
                     },
                     {
                         name: 'CSS / SCSS',
                         imgUrl: require('@/assets/images/icon/css.png'),
-                        type: '程式語言',
+                        type: '前端程式語言',
                         isMainSkill: true
                     },
                     {
-                        name: 'VUE3',
-                        imgUrl: require('@/assets/images/icon/vue.png'),
-                        type: '程式語言',
-                        isMainSkill: true
-                    },
-                    {
-                        name: 'BOOTSTRAP',
+                        name: 'Bootstrap',
                         imgUrl: require('@/assets/images/icon/bootstrap.png'),
-                        type: '程式語言',
+                        type: '前端程式語言',
+                        isMainSkill: true
+                    },
+                    {
+                        name: 'Vue 3',
+                        imgUrl: require('@/assets/images/icon/vue.png'),
+                        type: '前端框架',
                         isMainSkill: true
                     },
                     {
                         name: 'VB.NET',
                         imgUrl: require('@/assets/images/icon/vb.png'),
-                        type: '程式語言',
+                        type: '後端程式語言',
                         isMainSkill: true
                     },
                     {
                         name: 'MSSQL',
                         imgUrl: require('@/assets/images/icon/sql.png'),
-                        type: '程式語言',
+                        type: '資料庫',
+                        isMainSkill: true
+                    },
+                    {
+                        name: 'Node.js',
+                        imgUrl: require('@/assets/images/icon/nodejs.png'),
+                        type: '後端程式語言',
+                        isMainSkill: false
+                    },
+                    {
+                        name: 'MySQL',
+                        imgUrl: require('@/assets/images/icon/mysql.png'),
+                        type: '資料庫',
+                        isMainSkill: false
+                    },
+                    {
+                        name: 'GitHub',
+                        imgUrl: require('@/assets/images/icon/git.png'),
+                        type: '版本控制工具',
                         isMainSkill: true
                     },
                     {
@@ -80,28 +98,10 @@
                         isMainSkill: false
                     },
                     {
-                        name: 'Sublime',
-                        imgUrl: require('@/assets/images/icon/sublime.png'),
-                        type: '開發工具',
-                        isMainSkill: false
-                    },
-                    {
-                        name: 'GitHub',
-                        imgUrl: require('@/assets/images/icon/git.png'),
-                        type: '版本控制工具',
-                        isMainSkill: true
-                    },
-                    {
                         name: 'Adobe XD',
                         imgUrl: require('@/assets/images/icon/xd.png'),
                         type: 'UI設計軟體',
                         isMainSkill: true
-                    },
-                    {
-                        name: 'Sketch',
-                        imgUrl: require('@/assets/images/icon/sketch.png'),
-                        type: 'UI設計軟體',
-                        isMainSkill: false
                     },
                     {
                         name: 'Adobe Photoshop',
@@ -119,12 +119,6 @@
                         name: 'Adobe Lightroom',
                         imgUrl: require('@/assets/images/icon/lr.png'),
                         type: '影像軟體',
-                        isMainSkill: false
-                    },
-                    {
-                        name: 'Wordpress',
-                        imgUrl: require('@/assets/images/icon/wordpress.png'),
-                        type: '模板工具',
                         isMainSkill: false
                     }
                 ]

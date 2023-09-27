@@ -10,19 +10,14 @@
                     <h2>軟體工程師</h2>
                 </div>
                 <div>
-                    <!-- <p>
-                        畢業於輔仁大學經濟學系，充滿好奇的我對網站相當有興趣。統合所學專長，將分析與邏輯應用在工作上，透過不斷的學習精進，在訂定目標後走上coding之路成為軟體工程師。除了撰寫程式，也涵蓋UI設計與平面設計，能有效率的達成目標並持續成長。
-                    </p> -->
                     <ul class="tag-block">
-                        <li class="tag" style="background-color: #2a6882">學歷｜輔仁大學經濟學系</li>
                         <li class="tag">專長｜Web 切版</li>
-                        <li class="tag">專長｜Web RWD</li>
                         <li class="tag">專長｜後端系統開發</li>
                         <li class="tag">專長｜資料庫應用</li>
                         <li class="tag">專長｜UI 設計</li>
                         <li class="tag">專長｜版本控制</li>
-                        <li class="tag" style="background-color: #d78b4a;">新專長｜前端框架 - Vue</li>
-                        <li class="tag" style="background-color: #d78b4a;">新專長｜Node.js</li>
+                        <li class="tag" style="background-color: #d78b4a;">New｜前端框架 - Vue</li>
+                        <li class="tag" style="background-color: #d78b4a;">New｜Node.js</li>
                     </ul>
                 </div>
             </div>
