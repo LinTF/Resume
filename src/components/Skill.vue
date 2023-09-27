@@ -62,7 +62,7 @@
                         isMainSkill: true
                     },
                     {
-                        name: 'MMSQL',
+                        name: 'MSSQL',
                         imgUrl: require('@/assets/images/icon/sql.png'),
                         type: '程式語言',
                         isMainSkill: true
