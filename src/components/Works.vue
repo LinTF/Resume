@@ -68,7 +68,8 @@
                             // }
                         ],
                         moreImgUrl: [
-                            require('@/assets/images/code/3m/index.png')
+                            require('@/assets/images/code/3m/index.png'),
+                            require('@/assets/images/code/3m/product.png')
                         ]
                     },
                     {
