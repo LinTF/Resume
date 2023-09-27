@@ -147,21 +147,17 @@ header {
 
 #contact {
     background-color: $white-color;
-    padding: 30px 40px 30px 40px;
     margin-top: 20px;
 
     #info {
-        min-width: 60%;
-        background: $main-rbga-color;
         padding: 20px;
         border-radius: 20px;
         margin: 0 auto;
 
         .name-block {
-            display: flex;
-
             h3 {
                 margin-bottom: 0px;
+                text-align: center;
             }
 
             span {
@@ -169,27 +165,28 @@ header {
                 padding-top: 4px;
                 padding-left: 7px;
             }
+
+            p {
+                font-size: 20px;
+                text-align: center;
+            }
         }
 
         .contact-item {
+            text-align: center;
+
             .icon {
                 display: inline-block;
                 padding: 5px 8px;
                 font-size: 22px;
                 width: 40px;
                 text-align: center;
+                color: $main-color;
             }
             
-            span {
-                position: relative;
-                top: -3px;
+            a {
+                color: $main-color;
             }
-        }
-    }
-
-    #message {
-        h3 {
-            text-align: center;
         }
     }
 }

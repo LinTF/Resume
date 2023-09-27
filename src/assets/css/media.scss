@@ -42,8 +42,15 @@
 }
 
 #info {
-    @include tablet-and-down {
-        width: 100%;
-        margin-bottom: 30px !important;
+    @media screen and (min-width: 1110px) {
+        min-width: 35%;
+    }
+
+    @media screen and (min-width: 601px) and (max-width: 1109px) {
+        min-width: 50%;
+    }
+
+    @include mobile-only {
+        width: 90%;
     }
 }
