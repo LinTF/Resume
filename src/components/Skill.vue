@@ -50,6 +50,12 @@
                         isMainSkill: true
                     },
                     {
+                        name: 'JavaScript',
+                        imgUrl: require('@/assets/images/icon/js.png'),
+                        type: '前端程式語言',
+                        isMainSkill: true
+                    },
+                    {
                         name: 'Vue 3',
                         imgUrl: require('@/assets/images/icon/vue.png'),
                         type: '前端框架',

@@ -133,8 +133,9 @@ header {
         padding: 0px 20px;
 
         img {
-            height: 60px;
+            max-height: 60px;
             padding: 3px;
+            max-width: 100%;
         }
     }
 
