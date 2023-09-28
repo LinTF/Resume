@@ -11,11 +11,10 @@
                 </div>
                 <div>
                     <ul class="tag-block">
-                        <li class="tag">專長｜Web 切版</li>
-                        <li class="tag">專長｜後端系統開發</li>
+                        <li class="tag">專長｜前端開發</li>
+                        <li class="tag">專長｜後端開發</li>
                         <li class="tag">專長｜資料庫應用</li>
                         <li class="tag">專長｜UI 設計</li>
-                        <li class="tag">專長｜版本控制</li>
                         <li class="tag" style="background-color: #d78b4a;">New｜前端框架 - Vue</li>
                         <li class="tag" style="background-color: #d78b4a;">New｜Node.js</li>
                     </ul>

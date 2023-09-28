@@ -280,3 +280,11 @@ footer {
 ul.info {
     list-style-type: disc;
 }
+
+#home {
+    .skill-icon {
+        img {
+            max-width: unset;
+        }
+    }
+}

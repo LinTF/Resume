@@ -53,7 +53,7 @@
                         name: 'JavaScript',
                         imgUrl: require('@/assets/images/icon/js.png'),
                         type: '前端程式語言',
-                        isMainSkill: true
+                        isMainSkill: false
                     },
                     {
                         name: 'Vue 3',
