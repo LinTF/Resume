@@ -53,7 +53,7 @@
                         name: 'JavaScript',
                         imgUrl: require('@/assets/images/icon/js.png'),
                         type: '前端程式語言',
-                        isMainSkill: false
+                        isMainSkill: true
                     },
                     {
                         name: 'Vue 3',
@@ -89,7 +89,7 @@
                         name: 'GitHub',
                         imgUrl: require('@/assets/images/icon/git.png'),
                         type: '版本控制工具',
-                        isMainSkill: true
+                        isMainSkill: false
                     },
                     {
                         name: 'Visual Studio',
