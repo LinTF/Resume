@@ -51,12 +51,12 @@
             </div>
         </div>
 
-        <a href="./portfolio.html">
+        <router-link to="./portfolio">
             <div class="portfolio">
                 點我看作品
                 <span class="arrow">&rarr;</span>
             </div>
-        </a>
+        </router-link>
 
         <div id="contact">
             <contact />
