@@ -3,7 +3,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import IndexView from '../pages/index/Index.vue'
 import AboutView from '../pages/about/About.vue'
 import PortfolioView from '../pages/portfolio/Portfolio.vue'
-import ErrorView from '../views/404.vue'
+// import ErrorView from '../views/404.vue'
 
 const routes = [
   // {
@@ -34,12 +34,12 @@ const routes = [
     name: 'portfolio',
     component: PortfolioView
   },
-  {
-    // path: '/:catchAll(.*)',
-    path: '*',
-    name: '404',
-    component: ErrorView
-  }
+  // {
+  //   path: '/:catchAll(.*)',
+  //   // path: '*',
+  //   name: '404',
+  //   component: ErrorView
+  // }
 ]
 
 const router = createRouter({
