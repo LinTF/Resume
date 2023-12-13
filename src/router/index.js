@@ -3,6 +3,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import IndexView from '../pages/index/Index.vue'
 import AboutView from '../pages/about/About.vue'
 import PortfolioView from '../pages/portfolio/Portfolio.vue'
+import ErrorView from '../views/404.vue'
 
 const routes = [
   // {
@@ -32,6 +33,11 @@ const routes = [
     path: '/portfolio',
     name: 'portfolio',
     component: PortfolioView
+  },
+  {
+    path: '/:pathMatch(.*)*',
+    name: '404',
+    component: ErrorView
   }
 ]
 
