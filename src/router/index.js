@@ -35,7 +35,7 @@ const routes = [
     component: PortfolioView
   },
   {
-    path: '/:pathMatch(.*)*',
+    path: '*',
     name: '404',
     component: ErrorView
   }
