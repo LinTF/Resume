@@ -38,7 +38,7 @@ const routes = [
     // path: '/:catchAll(.*)',
     path: '/*',
     name: '404',
-    component: IndexView
+    component: ErrorView
   }
 ]
 
