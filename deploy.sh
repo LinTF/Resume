@@ -12,6 +12,8 @@ cd dist
 # 部署到自定義網域
 # echo 'www.example.com' > CNAME
 
+cp index.html 404.html
+
 git init
 git add -A
 git commit -m 'deploy'
