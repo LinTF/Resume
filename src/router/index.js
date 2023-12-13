@@ -35,7 +35,7 @@ const routes = [
     component: PortfolioView
   },
   {
-    path: '*',
+    path: '/:catchAll(.*)',
     name: '404',
     component: ErrorView
   }
